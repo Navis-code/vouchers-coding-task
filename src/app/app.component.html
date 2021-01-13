@@ -1,1 +1,10 @@
 <router-outlet></router-outlet>
+<div>
+  <ng-container *ngFor="let voucher of vouchersRaw">
+    <button (click)="printVoucherByType(voucher)">Load {{voucher.name}}</button>
+  </ng-container>
+
+</div>
+<div>
+  <pre>{{voucherList | json}}</pre>
+</div>
