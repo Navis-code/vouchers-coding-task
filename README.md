@@ -14,14 +14,30 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## TASK:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Escribe un programa en Typescript para NodeJS, que al ejecutarse genere una lista de códigos/cupones de acuerdo a un
+tipo de cupón especificado en una configuración. La configuración se debe proporcionar en un fichero separado en
+cualquier formato de tu elección (xml, ini, json, ...).
 
-## Running end-to-end tests
+Requisitos:
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Cualquier tipo de implementación del generador de cupones es válida, pero deben usarse al menos dos algoritmos
+distintos. Simplemente actualizando la configuración debería ser suficiente para obtener una lista diferente de cupones.
 
-## Further help
+Ejemplo:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+[cupones]
+cantidad = 5
+algoritmo = numerosSecuenciales
+
+Salida:
+
+000001
+000002
+000003
+000004
+000005
+
+Todas las decisiones de diseño e implementación quedan a tu consideración, ya que como digo nos resulta útil para
+conocer tu forma de priorizar y de aproximar un problema como el planteado.
