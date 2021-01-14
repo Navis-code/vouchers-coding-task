@@ -1,3 +1,4 @@
+import { VoucherCardComponent } from './components/voucher-card/voucher-card.component';
 import { VouchersProvider } from './providers/vouchers.provider';
 import { VouchersService } from './services/vouchers.service';
 import { TestBed } from '@angular/core/testing';
@@ -8,7 +9,7 @@ describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [RouterTestingModule],
-      declarations: [AppComponent],
+      declarations: [AppComponent, VoucherCardComponent],
       providers: [VouchersService, VouchersProvider],
     }).compileComponents();
   });

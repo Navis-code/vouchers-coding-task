@@ -32,16 +32,8 @@
   max-width: 100%;
   display: flex;
   flex-wrap: wrap;
-  .voucher-card {
-    padding: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+  app-voucher-card {
+    width: 95%;
     min-width: 100px;
-    border: 1px solid orange;
-    border-radius: 10px;
-    color: #9b9b9b;
-    margin: 5px;
   }
 }

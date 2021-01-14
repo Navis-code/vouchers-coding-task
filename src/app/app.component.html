@@ -9,9 +9,9 @@
 
   <div class="vouchers-card-container">
     <ng-container *ngIf="voucherList">
-      <div *ngFor="let voucher of voucherList" class="voucher-card">
-        <p class="voucher-card--text">{{voucher}}</p>
-      </div>
+      <ng-container *ngFor="let voucher of voucherList">
+        <app-voucher-card [voucher]="voucher"></app-voucher-card>
+      </ng-container>
     </ng-container>
   </div>
 </div>
