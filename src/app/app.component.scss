@@ -1,0 +1,47 @@
+.main-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #313131;
+  .main-title {
+    margin-bottom: 25px;
+    color: orange;
+  }
+}
+
+.voucher-btn {
+  padding: 20px;
+  background: #1a1a1a;
+  border: 1px solid orange;
+  margin: 5px;
+  color: #fff;
+  border-radius: 10px;
+  outline: none;
+}
+.voucher-btn:hover {
+  transition: 0.5s all ease;
+  background: #7b7770;
+  border: 1px solid orange;
+  color: #ffa80a;
+}
+
+.vouchers-card-container {
+  min-height: 50vh;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  .voucher-card {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-width: 100px;
+    border: 1px solid orange;
+    border-radius: 10px;
+    color: #9b9b9b;
+    margin: 5px;
+  }
+}
